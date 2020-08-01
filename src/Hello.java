@@ -8,7 +8,7 @@ public class Hello {
         for(int i=0;i<arr.length;i++){
             arr[i]=i+1;
         }
-        System.out.ptintln("Test print")
+        System.out.ptintln("Test print");//test hello
         System.out.println(Arrays.toString(arr));
         boolean result=Arrays.equals(arr,arr);
         System.out.println(result);
