@@ -9,6 +9,8 @@ public class Hello {
             arr[i]=i+1;
         }
         System.out.println(Arrays.toString(arr));
+        boolean result=Arrays.equals(arr,arr);
+        System.out.println(result);
 
     }
 }
